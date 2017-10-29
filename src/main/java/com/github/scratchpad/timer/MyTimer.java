@@ -1,10 +1,9 @@
 package com.github.scratchpad.timer;
 
-
 /**
  * @author Shriyog Ingale 29-Oct-2017
  */
-public class MyTimer extends Thread {
+public class MyTimer {
 
 	private Callable callable;
 	public <T extends Callable> MyTimer(T callable) {
